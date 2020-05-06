@@ -76,6 +76,13 @@ export function replaceAwesomeBBCodes(text, options) {
       }].concat(content);
     });
   }
+  
+  defineBBCode("bg", true, function (content, attrs, inline) {
+    return [(inline? 'span':'div'), {
+      "class": 'bbcode-background',
+      "style": 'background:' + attrs["bg"]
+    }].concat(content);
+  });
 
   options.typefacesList.forEach(function(typeface){
     var classTag = 'typefaces-tag ' + typeface;
