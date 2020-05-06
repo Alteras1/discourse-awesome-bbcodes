@@ -1,5 +1,5 @@
 import Editor from 'discourse/components/d-editor'
-import { findRawTemplate } from 'discourse/lib/raw-templates';
+import { findRawTemplate } from 'discourse/app/assets/javascripts/discourse-common/addon/lib/raw-templates.js';
 
 const searchBBCodes = function(term, toSearch, options) {
   var maxResults = (options && options["maxResults"]) || -1;
