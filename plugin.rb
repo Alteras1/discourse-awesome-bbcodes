@@ -2,7 +2,7 @@
 # about: BBCode tags with multiline support.
 # version: 1.7.1
 # authors: David Montoya, Charles-Pierre Astolfi
-# url: https://github.com/rux-pizza/discourse-awesome-bbcodes
+# url: https://github.com/Alteras1/discourse-awesome-bbcodes
 
 # Typeface fonts
 register_asset 'stylesheets/typefaces.scss'
